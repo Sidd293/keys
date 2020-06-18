@@ -100,7 +100,7 @@ push()
   //rectMode(CENTER)
 push()
   loc = y+n*x
- //specularMaterial(0,225,0)
+ specularMaterial(0,225,0)
   translate(w*(y-n/2),w*(x-n/2),h[loc]*.75+40)
  fill(0,0,255)
   rotateX(PI/2)
@@ -125,7 +125,7 @@ pop()
   {
   push()
   lc = cy[i]+n*cx[i]
-//specularMaterial(250,225,0)
+specularMaterial(250,225,0)
     translate(w*(cy[i]-n/2),w*(cx[i]-n/2),h[lc]*.75+20)
  fill(255,215,0)
 //console.log(h[lc]*.75)
