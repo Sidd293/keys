@@ -24,7 +24,7 @@ sky = loadImage('OIP.jpg')
 
 }
 function setup() {
-  createCanvas(800, 800,WEBGL);
+  createCanvas(windowWidth, windowHeight,WEBGL);
 cy[0] = 5
 cy[1] = 2
 cy[2] = 4
